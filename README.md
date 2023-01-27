@@ -1,7 +1,7 @@
 About chopin2
 =============
 
-Home: https://github.com/fabio-cumbo/chopin2
+Home: https://github.com/cumbof/chopin2
 
 Package license: GPL-3.0-only
 
@@ -147,5 +147,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@fabio-cumbo](https://github.com/fabio-cumbo/)
+* [@fabio-cumbo](https://github.com/cumbof/)
 
