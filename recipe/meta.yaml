@@ -1,5 +1,5 @@
 {% set name = "chopin2" %}
-{% set version = "1.0.8.post1" %}
+{% set version = "1.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a1bd8ddb86d89b9f47eb024eb570f0ea0e9d6a2c527c766a1ff0cbe812d99b63
+  sha256: 330d59c326a3dbd519de1227fdf8f88ff87a3544ec7069f2f49fa81236f15bd0
 
 build:
   number: 0
@@ -43,7 +43,7 @@ about:
   license_file: LICENSE
   summary: chopin2
   description: |
-    Supervised Classification with Hyperdimensional Computing for massive datasets on commodity hardware.
+    Supervised Classification with Hyperdimensional Computing for massive datasets with commodity hardware.
     Supporting k-fold cross-validation and feature selection as backward variable elimination.
 
 extra:
