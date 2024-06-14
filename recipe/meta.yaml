@@ -1,5 +1,5 @@
 {% set name = "chopin2" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.9.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 330d59c326a3dbd519de1227fdf8f88ff87a3544ec7069f2f49fa81236f15bd0
+  sha256: 7c9216facfb89c8c999b158a499170483dadc25f5638ce4b3724299b4e48258f
 
 build:
   number: 0
