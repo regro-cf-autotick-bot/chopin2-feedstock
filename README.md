@@ -9,7 +9,7 @@ Package license: GPL-3.0-only
 
 Summary: chopin2
 
-Supervised Classification with Hyperdimensional Computing for massive datasets on commodity hardware.
+Supervised Classification with Hyperdimensional Computing for massive datasets with commodity hardware.
 Supporting k-fold cross-validation and feature selection as backward variable elimination.
 
 
