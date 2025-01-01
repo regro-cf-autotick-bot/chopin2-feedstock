@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 7c9216facfb89c8c999b158a499170483dadc25f5638ce4b3724299b4e48258f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - chopin2=chopin2.chopin2:chopin2
@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy >=1.16.3
     - pyspark >=2.40
     - numba >=0.51.2
@@ -35,6 +35,7 @@ test:
     - chopin2 --version
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/cumbof/chopin2
